@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1 >Course Registration Form</h1>
+<form action="SignUp" method="post">
+	<fieldset>
+		<legend>Personal Details</legend>
+
+	<table >
+	    <tr >
+	    	<td>
+	    		<label >Name </label>
+	    	</td>
+	   	    <td>
+	   			 <input type="text" name="name" required placeholder="Alex"  >
+	   		</td>
+	   	</tr>
+
+	     <tr> <td><label >Mobile Number </label></td> <td><input type="tel" name="mob" placeholder="0000000000" ></td> </tr>
+
+	      <tr> <td><label >Email</label></td> <td><input type="email" name="email" placeholder="Ex:abc@def.com" ></td> </tr>
+
+	      <tr> <td><label >Password</label></td> <td><<input type="password" name="password" placeholder="min 5 charcters"></td> </tr>
+
+	        <tr> <td><label>DOB</label></td> <td><input type="date" name="dob" ></td> </tr>
+	        
+	        <tr> <td><label>Address</label></td> <td><input type="text" name="address" ></td> </tr>
+
+	        
+
+	<tr> <td><label>upload picture</label></td> <td><input type="file" name="pic"></td> </tr>
+
+	        
+		</table>
+
+	<input type="reset" >
+	</fieldset>
+
+
+
+
+
+	<fieldset >
+		<legend>Course Details		</legend>
+
+		<label>Select Course</label>
+		<select>
+			<option value="p">Python</option>
+			<option value="J">Java</option>
+			<option value="JS">JavaScript</option>
+			<option value="M">Mern</option>
+		</select><br>
+
+		<label>Class Mode</label>
+		<input type="checkbox" name="model" value="ON" >ONLINE
+		<input type="checkbox" name="mode2" value="Of">OFFLINE <br>
+
+
+	</fieldset>
+	<input type="submit">
+
+</form>
+
+</body>
+</html>
